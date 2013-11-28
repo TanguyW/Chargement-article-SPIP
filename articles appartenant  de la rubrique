@@ -1,0 +1,10 @@
+<body>
+	<div class="page">
+	  	<div id="container">
+			<BOUCLE_article(ARTICLES){id_rubrique=5}>
+				#TITRE
+				#TEXTE
+			</BOUCLE_article>
+		</div>
+	</div><!--.page-->
+</body>
