@@ -1,0 +1,12 @@
+<body>
+<div class="page">
+  	<div id="container">
+		<ul id="nav">
+			<BOUCLE_rubrique(ARTICLES){id_rubrique=5}>
+		    	<li><a [(#EXPOSER|class=active)] href="#URL_ARTICLE">#TITRE</a></li>	
+			</BOUCLE_rubrique>
+		</ul></br>
+		<INCLURE{fond=content}{ajax}{env}>
+	</div>
+</div><!--.page-->
+</body>
