@@ -1,0 +1,14 @@
+<body>
+	<div id="content">
+		<BOUCLE_article(ARTICLES){id_article=6}>
+		#TITRE
+		#TEXTE
+		</BOUCLE_article>
+		<!--//////////////////// inclusion ////////////////////-->
+		<div id="articleinclu">
+			<INCLURE{fond=Textes}{ajax}{env}{id_rubrique=5}>
+		</div>
+	</div><!--.content-->
+</body>
+</html>
+
